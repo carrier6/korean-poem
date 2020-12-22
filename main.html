@@ -4,32 +4,41 @@
         <meta charset="utf-8">
         <meta name="description" content="국어 시 문학 개념정리">
         <meta name="author" content="carrier6">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
         
-
-
-
-
+        
 
         <title>시 문학</title>
         <style>
 
+            /* 사이트 배경화면 */
             body{
                 background-image: url("https://cdn.crowdpic.net/list-thumb/thumb_l_3D68EAC5A1F4019B01F89171879886E5.jpg");
                 padding-top: 40px;
             }
 
+            /* 문법 목록 */
+
             #list{
-                border: 1px solid black;
+                border: 1px solid black; 
                 width: 20%;
                 
                 box-sizing: border-box;}
              /* 새탭에 만들고싶을 때는 a태그 속성에 target="_blank" 추가 */
-            strong{background-color: #fe7f9c}
-            #imp{
-              background-color: #fada5e;
-              width: 450px;
-              height: 20px;}
+
+             /* 중요한 점 분홍색으로 형광칠 */
+
+            strong{background-color: rgba(254, 127, 156, 0.5)} 
+
+            /* 줄 열맞춤 */
+
+            #ol{margin-left: -22px;}
+
+            /* 마음가짐 0. 형광칠 */
+
+            span{background-color: rgba(250, 218, 94, 0.8)}
+
+            /* [여기에 제목을 입력]을 사이트 상단에 고정 */
+
             #title{
              background-color: rgba(0, 0, 0, 0.5); 
              color: cyan;
@@ -40,10 +49,13 @@
             height: 30px;
             text-align: center;
             }
+
+            /* 하이퍼텍스트 밑줄 없앰 */
+
             a{
                 text-decoration: none;
             }
-
+            
 
 
         </style>
@@ -59,8 +71,8 @@
 
         </ul>
         <h2>시를 볼때 마음가짐</h2>
-        <ol>
-            <li id="imp">노래를 듣는다는 느낌으로 시 속 이야기를 Relax~하며 읽는다.</li><br>
+        <span>0. 노래를 듣는다는 느낌으로 시 속 이야기를 Relax~하며 읽는다.</span>
+        <ol id="ol">
             <li>시를 읽으면서 <strong>무슨 상황</strong>인지 생각해본다.</li><br>
             <li>화자는 <strong>무슨 사람</strong>인지를 파악한다.</li><br>
             <li>화자가 지금 <strong>어떤 기분</strong>인지를 생각해 본다.</li><br>
