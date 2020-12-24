@@ -5,17 +5,28 @@
         <meta name="description" content="국어 시 문학 개념정리">
         <meta name="author" content="carrier6">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes">
-        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
 
         <title>시 문학</title>
         <style>
 
             /* 사이트 배경화면 */
+               
+            
             body{
-                background-image: url("https://cdn.crowdpic.net/list-thumb/thumb_l_3D68EAC5A1F4019B01F89171879886E5.jpg");
+                background: url("https://puu.sh/H0fTf/d0499946a9.gif"), url("https://cdn.crowdpic.net/list-thumb/thumb_l_3D68EAC5A1F4019B01F89171879886E5.jpg");
+                background-repeat: repeat-x, repeat;
                 padding-top: 40px;
                 background-attachment: fixed;
-            }
+                
+                }
+            
+            
+                
+
+
+
 
             /* 문법 목록 */
 
@@ -56,7 +67,27 @@
             a{
                 text-decoration: none;
             }
-            
+            .btn{
+            font-size: 1em;
+            color: white;
+            padding: 5px 10px 5px 10px;
+            margin: 20px;
+            display: inline-block;
+            border-radius: 10px;
+            transition: all 0.15s;
+            text-shadow: 0px -2px rgba(0, 0, 0, 0.46);
+            font-family: 'Black Han Sans', sans-serif;
+        }
+        .btn:active{
+            transform: translateY(5px);
+        }
+        .btn.blue{
+            background-color: blueviolet;
+            border-bottom: 8px solid rgb(95, 30, 156);
+        }
+        .btn.blue:active{
+            border-bottom: 3px solid rgb(95, 30, 156);
+        }
 
 
         </style>
@@ -81,7 +112,7 @@
         </ol>
 <br><br><br><br>
         <ul>
-            <li><a href="feedback.html">피드백하러 가기</a></li>
+            <li><a href="feedback.html" class="btn blue">피드백하러 가기</a></li>
             <li>여기서 나오는 모든 자료의 출처는 '윤혜정의 나비효과 입문편'입니다.</li>
         </ul>
     </body>
