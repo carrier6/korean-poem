@@ -9,6 +9,7 @@ html a{
 /* 사이트 배경화면 */
             body{
                 background-image: url("https://cdn.crowdpic.net/list-thumb/thumb_l_3D68EAC5A1F4019B01F89171879886E5.jpg");
+                background-attachment: fixed;
             }
 /* 목록 */
             ul{
@@ -17,11 +18,13 @@ html a{
                 box-sizing: border-box;}
 
 /* 신문형식으로 정리(컴퓨터만 해당) */
-                .column{column-width: 300px;
+                    @media (min-width: 1280px){
+                        .column {column-width: 300px;
                         text-align: justify;
                         column-rule-style: solid;
                         column-rule-width: 1px;
                         }
+                    }
 
 /* 중요한 단어 색칠 */
                 span{
@@ -31,7 +34,10 @@ html a{
                 .expn{
                     font-size: 1.1rem;
                 }  
+                
                       
                          /* 국어화면
                         https://cdn.crowdpic.net/list-thumb/thumb_l_3D68EAC5A1F4019B01F89171879886E5.jpg */
+
+
 
