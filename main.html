@@ -35,7 +35,7 @@
 
              /* 중요한 점 분홍색으로 형광칠 */
 
-            strong{background-color: rgba(254, 127, 156, 0.5)} 
+            strong{background-color: rgba(191, 255, 0, 0.5)} 
 
             /* 줄 열맞춤 */
 
@@ -43,7 +43,7 @@
 
             /* 마음가짐 0. 형광칠 */
 
-            span{background-color: rgba(250, 218, 94, 0.8)}
+            span{background-color: rgba(139, 0, 255, 0.3)}
 
             /* [여기에 제목을 입력]을 사이트 상단에 고정 */
 
@@ -56,6 +56,13 @@
              width: 100%;
             height: 30px;
             text-align: center;
+            }
+
+            /* 모바일 문장 깔끔하게 */
+            @media (max-width: 425px){
+                span, ol{
+                    font-size: 15px;
+                }
             }
 
             /* 하이퍼텍스트 밑줄 없앰 */
@@ -73,7 +80,7 @@
             border-radius: 10px;
             transition: all 0.15s;
             text-shadow: 0px -2px rgba(0, 0, 0, 0.46);
-            font-family: 'Black Han Sans', sans-serif;
+            
         }
         .btn:active{
             transform: translateY(5px);
@@ -94,7 +101,7 @@
         <div><a href="main.html" id="title">[여기에 제목을 입력]</a></div>
         <h1><a href="main.html" class="poem">시</a></h1>  
         <ul id="list">
-
+<!--대비, 비유, 상징, 운율, 구성 추가예정-->
             <li><a href="concept.html">시의 대표적인 개념</a></li>
             <li><a href="image.html">이미지(심상)</a></li>
             <li>시어의 의미</li>

@@ -6,6 +6,19 @@ html a{
 
 /* 현재 보고있는 목록을 빨간색으로 표시 */
 #visiting{color: red;}
+
+/* [여기에 제목을 입력]을 사이트 상단에 고정 */
+#title{
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: cyan;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+   height: 25px;
+   text-align: center;
+   }
+
 /* 사이트 배경화면 */
             body{
                 background-image: url("https://cdn.crowdpic.net/list-thumb/thumb_l_3D68EAC5A1F4019B01F89171879886E5.jpg");
