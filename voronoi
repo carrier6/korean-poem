@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>voronoi</title>
+
+</head>
+<body>
+<script src="http://www.raymondhill.net/voronoi/rhill-voronoi-core.js"></script>
+</body>
+</html>
